@@ -14,7 +14,7 @@
     const users = data.items || [];
 
     for (let i = 0; i < users.length; i++) {
-        const newEmail = `test+${i + 1}@test.com`;
+        const newEmail = `souravpaul+${i + 1}@intigriti.me`;
 
         await fetch(`/o/headless-admin-user/v1.0/user-accounts/${users[i].id}`, {
             method: 'PATCH',
